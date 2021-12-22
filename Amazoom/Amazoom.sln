@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazoom", "Amazoom\Amazoom.csproj", "{49601A5B-C675-4183-BEB5-CF8B824B649F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazoomTests", "AmazoomTests\AmazoomTests.csproj", "{09454433-3D4B-49EB-8DFE-7B258B1C14DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazoomMain", "AmazoomMain\AmazoomMain.csproj", "{DD947905-A74E-4FD9-B2FD-9D6CEF0244B8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MVCDemoDB", "DemoDB\MVCDemoDB.sqlproj", "{04191B96-83CC-4B64-B13E-7C36F654B50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazooomMVCDotNet", "AmazooomMVCDotNet\AmazooomMVCDotNet.csproj", "{8BAE3F0C-1B67-41A5-8588-3501C0CD2758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{D6EEDA8F-82C3-49A5-9B72-5D5329826BFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49601A5B-C675-4183-BEB5-CF8B824B649F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49601A5B-C675-4183-BEB5-CF8B824B649F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49601A5B-C675-4183-BEB5-CF8B824B649F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49601A5B-C675-4183-BEB5-CF8B824B649F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09454433-3D4B-49EB-8DFE-7B258B1C14DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09454433-3D4B-49EB-8DFE-7B258B1C14DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09454433-3D4B-49EB-8DFE-7B258B1C14DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09454433-3D4B-49EB-8DFE-7B258B1C14DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD947905-A74E-4FD9-B2FD-9D6CEF0244B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD947905-A74E-4FD9-B2FD-9D6CEF0244B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD947905-A74E-4FD9-B2FD-9D6CEF0244B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD947905-A74E-4FD9-B2FD-9D6CEF0244B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04191B96-83CC-4B64-B13E-7C36F654B50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04191B96-83CC-4B64-B13E-7C36F654B50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04191B96-83CC-4B64-B13E-7C36F654B50D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{04191B96-83CC-4B64-B13E-7C36F654B50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04191B96-83CC-4B64-B13E-7C36F654B50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04191B96-83CC-4B64-B13E-7C36F654B50D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8BAE3F0C-1B67-41A5-8588-3501C0CD2758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BAE3F0C-1B67-41A5-8588-3501C0CD2758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BAE3F0C-1B67-41A5-8588-3501C0CD2758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BAE3F0C-1B67-41A5-8588-3501C0CD2758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EEDA8F-82C3-49A5-9B72-5D5329826BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EEDA8F-82C3-49A5-9B72-5D5329826BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EEDA8F-82C3-49A5-9B72-5D5329826BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EEDA8F-82C3-49A5-9B72-5D5329826BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2283D621-7F49-4377-8B63-788AFD5D6DD9}
+	EndGlobalSection
+EndGlobal

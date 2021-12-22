@@ -1,0 +1,65 @@
+﻿@model IEnumerable<AmazooomMVCDotNet.Models.ItemModel>
+
+@{
+    ViewBag.Title = "View Products";
+}
+
+<h2>Products Page</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddStock")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemWeight)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemVolume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Stock)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemWeight)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemVolume)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Stock)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+        <td>
+            <button type="button" onclick="location.href='@Url.Action("AddToCart","Home")'">Add to Cart</button>
+        </td>
+    </tr>
+}
+
+</table>
+
+<td>
+    <button type="button" onclick="location.href='@Url.Action("Index","Home")'">Return to Home</button>
+    <button type="button" onclick="location.href='@Url.Action("ViewCart","Home")'">Check Out</button>
+</td>
